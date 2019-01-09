@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Dangonngutrongandroid</string>
+    <string name="registry" translatable="false">Registry!</string>
+    <string name="name" translatable="false">Name:</string>
+    <string name="account" translatable="false">Account :</string>
+    <string name="password_is" translatable="false">Password is:</string>
+    <string name="confirm" translatable="false">CONFIRM</string>
+    <string name="nameout" translatable="false">Name is:</string>
+    <string name="accountout" translatable="false">Account is:</string>
+    <string name="Hello" translatable="false">Hello :</string>
+    <string name="pass" translatable="false">password is</string>
+</resources>

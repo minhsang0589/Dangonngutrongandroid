@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dangonngutrongandroid</string>
+    <string name="registry" translatable="false">Đăng ký</string>
+    <string name="name" translatable="false">Tên</string>
+    <string name="account" translatable="false">Tài khoản</string>
+    <string name="password_is" translatable="false">Mật khẩu</string>
+    <string name="confirm" translatable="false">Xác nhận</string>
+    <string name="nameout" translatable="false">Tên là</string>
+    <string name="accountout" translatable="false">Tài khoản là</string>
+    <string name="Hello" translatable="false">Xin chào</string>
+    <string name="pass" translatable="false">Mật khẩu</string>
+</resources>

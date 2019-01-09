@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="16dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/im_anh"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/anh"
+            android:layout_marginRight="20dp"
+            />
+        <ImageView
+            android:id="@+id/im_vietnam"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/vietnam"/>
+
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:id="@+id/tv_registry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/registry"
+            android:paddingBottom="15dp"
+            android:layout_margin="15dp"
+            />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:layout_marginBottom="15dp"
+        android:paddingBottom="15dp"
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"/>
+    <EditText
+        android:layout_marginBottom="15dp"
+        android:paddingBottom="15dp"
+        android:id="@+id/edt_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/account"/>
+    <EditText
+        android:layout_marginBottom="15dp"
+        android:paddingBottom="15dp"
+        android:hint="@string/password_is"
+        android:id="@+id/edt_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginBottom="15dp"
+        android:paddingBottom="15dp"
+        android:layout_gravity="center"
+        android:id="@+id/btn_cofirm"
+        android:text="@string/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_thongtin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
